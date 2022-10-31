@@ -1,7 +1,7 @@
 const notes = [
   {
     id: "notes-V1StGXR8_Z5jdHi6B-myT",
-    titl: "Sejarah JavaScript",
+    title: "Sejarah JavaScript",
     createdAt: "2020-12-23T23:00:09.686Z",
     updatedAt: "2020-12-23T23:00:09.686Z",
     tags: ["NodeJS", "JavaScript"],
