@@ -1,0 +1,25 @@
+{
+  "name": "dicoding-lutfi",
+  "version": "1.0.0",
+  "description": "latihan dan tugas dicoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lutfi-haslab/dicoding-lutfi.git"
+  },
+  "keywords": [
+    "dicoding",
+    "javascript",
+    "frontend",
+    "backend"
+  ],
+  "author": "haslab-lutfi",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/lutfi-haslab/dicoding-lutfi/issues"
+  },
+  "homepage": "https://github.com/lutfi-haslab/dicoding-lutfi#readme"
+}
