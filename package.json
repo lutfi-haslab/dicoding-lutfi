@@ -4,7 +4,9 @@
   "description": "latihan dan tugas dicoding",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webservice": "nodemon ./webservice/server.js",
+    "hapi": "nodemon ./hapi-web-server/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/lutfi-haslab/dicoding-lutfi/issues"
   },
-  "homepage": "https://github.com/lutfi-haslab/dicoding-lutfi#readme"
+  "homepage": "https://github.com/lutfi-haslab/dicoding-lutfi#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nodemon": "^2.0.20"
+  }
 }
