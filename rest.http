@@ -1,0 +1,14 @@
+@endpoint = http://localhost:5000
+
+GET  {{endpoint}}
+###
+POST {{endpoint}}
+Content-Type: application/json
+
+{ "name": "Dicoding" }
+###
+PUT {{endpoint}}
+###
+DELETE {{endpoint}}
+###
+GET {{endpoint}}/halo/test
