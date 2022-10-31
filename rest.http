@@ -2,6 +2,8 @@
 
 GET  {{endpoint}}
 ###
+GET  {{endpoint}}/hello/lutfi
+###
 POST {{endpoint}}
 Content-Type: application/json
 
@@ -12,3 +14,8 @@ PUT {{endpoint}}
 DELETE {{endpoint}}
 ###
 GET {{endpoint}}/halo/test
+###
+POST {{endpoint}}/login
+Content-Type: application/json
+
+{ "username": "harrypotter", "password": "encryptedpassword" }
